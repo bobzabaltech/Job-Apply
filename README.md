@@ -1,4 +1,4 @@
-# Career_Package 
+# Career_Package
 
 ## AI Career Strategy Operating System
 
