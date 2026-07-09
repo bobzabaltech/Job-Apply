@@ -106,8 +106,6 @@
 - JOB URL: https://www.linkedin.com/jobs/view/4416186264/
 - Salary: Not specified
 
-# Dataset: INDUSTRIAL DATA
-
 - Company: Danfoss
 - Role: Manufacturing System and Solution Consultant
 - Location: Nordborg, Denmark
