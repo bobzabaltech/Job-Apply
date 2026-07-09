@@ -1,54 +1,32 @@
-# Dataset: DIGITAL MANUFACTURING
+- Company: Magna International
+- Role: Industry 4.0 Engineer
+- Location: Barcelona, Spain
+- JOB URL: https://www.linkedin.com/jobs/view/4433302352/
+- Salary: Not specified
 
-* Company: Magna International
+- Company: Thales
+- Role: Digitalization Engineer
+- Location: Barcelona, Spain
+- JOB URL: https://www.linkedin.com/jobs/view/4404999638/
+- Salary: Not specified
 
-* Role: Industry 4.0 Engineer
+- Company: Rheinmetall
+- Role: Digital Manufacturing Engineer (m/w/d)
+- Location: Neuss, North Rhine-Westphalia, Germany
+- JOB URL: https://www.linkedin.com/jobs/view/4410307021/
+- Salary: Not specified
 
-* Location: Barcelona, Spain
+- Company: SAEKI
+- Role: Manufacturing Lead: Quality and Metrology
+- Location: Munich, Bavaria, Germany
+- JOB URL: https://www.linkedin.com/jobs/view/4381715224/
+- Salary: Competitive salary + meaningful equity
 
-* JOB URL: https://www.linkedin.com/jobs/view/4433302352/
-
-* Salary: Not specified
-
-* Company: Thales
-
-* Role: Digitalization Engineer
-
-* Location: Barcelona, Spain
-
-* JOB URL: https://www.linkedin.com/jobs/view/4404999638/
-
-* Salary: Not specified
-
-* Company: Rheinmetall
-
-* Role: Digital Manufacturing Engineer (m/w/d)
-
-* Location: Neuss, North Rhine-Westphalia, Germany
-
-* JOB URL: https://www.linkedin.com/jobs/view/4410307021/
-
-* Salary: Not specified
-
-* Company: SAEKI
-
-* Role: Manufacturing Lead: Quality and Metrology
-
-* Location: Munich, Bavaria, Germany
-
-* JOB URL: https://www.linkedin.com/jobs/view/4381715224/
-
-* Salary: Competitive salary + meaningful equity
-
-* Company: Hitachi Energy
-
-* Role: Digitalization and Automation Factory Specialist / Lead
-
-* Location: Vaasa, Finland
-
-* JOB URL: https://www.linkedin.com/jobs/view/4437422220/
-
-* Salary: Not specified
+- Company: Hitachi Energy
+- Role: Digitalization and Automation Factory Specialist / Lead
+- Location: Vaasa, Finland
+- JOB URL: https://www.linkedin.com/jobs/view/4437422220/
+- Salary: Not specified
 
 - Company: ARX Robotics
 - Role: Manufacturing Digitalization Specialist (m/f/d)
