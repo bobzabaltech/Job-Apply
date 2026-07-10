@@ -32,7 +32,7 @@ jobs:
           raw_url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/${url_encoded}"
           
           # Escribe el archivo final en texto plano
-          echo "${file} -- [${raw_url}]" >> index.txt
+          echo "file_path: ${file} --> link_to_file: ${raw_url}" >> index.txt
         done
 
     - name: Commit and Push changes
