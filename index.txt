@@ -67,5 +67,4 @@ file_path: 07_Interviews/Manufacturing_System_Design_Stories.md --> link_to_file
 file_path: 07_Interviews/empty --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/07_Interviews/empty
 file_path: 08_Offers/empty --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/08_Offers/empty
 file_path: README.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/README.md
-file_path: index.html --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/index.html
 file_path: notes.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/notes.md
