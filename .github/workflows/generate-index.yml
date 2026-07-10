@@ -3,7 +3,7 @@ name: Generate Repository Index
 on:
   push:
     branches:
-      - main # Cambia a 'master' si tu rama principal se llama así
+      - main # Cambia a 'master' si tu rama principal usa ese nombre
 
 permissions:
   contents: write
@@ -18,29 +18,25 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Generate index.html
+    - name: Generate index.txt
       run: |
-        echo "<!DOCTYPE html>" > index.html
-        echo "<html><head><title>Index del Repositorio</title></head><body>" >> index.html
-        echo "<pre>" >> index.html
+        # Vacía o crea el archivo index.txt
+        > index.txt
         
-        # Busca todos los archivos clonados, excluyendo la carpeta .git y el propio index.html
-        find . -type f -not -path '*/.*' -not -name 'index.html' | sed 's|^\./||' | while read -r file; do
+        # Busca todos los archivos, excluye carpetas ocultas e index.txt, y los ordena alfabéticamente
+        find . -type f -not -path '*/.*' -not -name 'index.txt' | sed 's|^\./||' | sort | while read -r file; do
           # Codifica la ruta para que sea una URL válida
           url_encoded=$(python3 -c "import urllib.parse; print(urllib.parse.quote('''$file'''))")
-          # Construye la URL raw oficial de GitHub para el archivo
+          # Construye la URL raw oficial de GitHub
           raw_url="https://githubusercontent.com{{ github.repository }}/${{ github.ref_name }}/${url_encoded}"
-          # Escribe la línea con el formato solicitado
-          echo "${file} -- [${raw_url}]" >> index.html
+          # Escribe la línea en texto plano
+          echo "${file} -- [${raw_url}]" >> index.txt
         done
-        
-        echo "</pre>" >> index.html
-        echo "</body></html>" >> index.html
 
     - name: Commit and Push changes
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@://github.com"
-        git add index.html
-        # Solo hace commit si el archivo index.html cambió para evitar bucles infinitos
-        git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update index.html [skip ci]" && git push)
+        git add index.txt
+        # Hace commit solo si index.txt cambió, evitando bucles infinitos
+        git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update index.txt [skip ci]" && git push)
