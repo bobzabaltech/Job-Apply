@@ -1,15 +1,16 @@
-name: Generate Auto Index
+name: Generate Repository Index
 
 on:
   push:
     branches:
-      - main  # Cambia a 'master' si tu rama principal se llama así
+      - main # Cambia a 'master' si tu rama principal se llama así
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
     - name: Checkout repository
@@ -17,62 +18,29 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
-
     - name: Generate index.html
       run: |
-        python -c '
-        import os
-
-        # Archivos o carpetas que deseas ocultar del índice
-        ignore_list = [".git", ".github", "index.html", "README.md"]
-
-        files_list = []
-        for root, dirs, files in os.walk("."):
-            # Filtrar carpetas ignoradas
-            dirs[:] = [d for d in dirs if d not in ignore_list and not d.startswith(".")]
-            
-            for file in files:
-                if file not in ignore_list and not file.startswith("."):
-                    full_path = os.path.relpath(os.path.join(root, file), ".")
-                    files_list.append(full_path)
-
-        files_list.sort()
-
-        # Crear los enlaces en HTML
-        links_html = "".join([f"<li><a href=\"{f}\" class=\"text-blue-600 hover:underline block py-1\">📄 {f}</a></li>" for f in files_list])
-
-        html_content = f"""<!DOCTYPE html>
-        <html lang="es">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Índice Automático del Repositorio</title>
-            <script src="https://jsdelivr.net"></script>
-        </head>
-        <body class="bg-gray-100 p-8 font-sans">
-            <div class="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow-md">
-                <h1 class="text-2xl font-bold mb-4 text-gray-800">Archivos disponibles</h1>
-                <p class="text-sm text-gray-500 mb-6">Actualizado automáticamente en cada commit.</p>
-                <ul class="space-y-2 border-t pt-4">
-                    {links_html}
-                </ul>
-            </div>
-        </body>
-        </html>"""
-
-        with open("index.html", "w", encoding="utf-8") as f:
-            f.write(html_content)
-        '
+        echo "<!DOCTYPE html>" > index.html
+        echo "<html><head><title>Index del Repositorio</title></head><body>" >> index.html
+        echo "<pre>" >> index.html
+        
+        # Busca todos los archivos clonados, excluyendo la carpeta .git y el propio index.html
+        find . -type f -not -path '*/.*' -not -name 'index.html' | sed 's|^\./||' | while read -r file; do
+          # Codifica la ruta para que sea una URL válida
+          url_encoded=$(python3 -c "import urllib.parse; print(urllib.parse.quote('''$file'''))")
+          # Construye la URL raw oficial de GitHub para el archivo
+          raw_url="https://githubusercontent.com{{ github.repository }}/${{ github.ref_name }}/${url_encoded}"
+          # Escribe la línea con el formato solicitado
+          echo "${file} -- [${raw_url}]" >> index.html
+        done
+        
+        echo "</pre>" >> index.html
+        echo "</body></html>" >> index.html
 
     - name: Commit and Push changes
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@://github.com"
+        git config --global user.email "github-actions[bot]@://github.com"
         git add index.html
-        # Solo hace commit si el archivo index.html realmente cambió
-        git diff-index --quiet HEAD || git commit -m "chore: update automatic index.html [skip ci]"
-        git push
+        # Solo hace commit si el archivo index.html cambió para evitar bucles infinitos
+        git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update index.html [skip ci]" && git push)
