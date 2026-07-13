@@ -61,7 +61,6 @@ file_path: 05_Market_Research/Technical_Evidence_Matrix_2026.md --> link_to_file
 file_path: 06_Applications/Application_Tracking_System.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/06_Applications/Application_Tracking_System.md
 file_path: 06_Applications/CVs_PLs/CV Julian Cabrera Marceglia_BASE.docx --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/06_Applications/CVs_PLs/CV%20Julian%20Cabrera%20Marceglia_BASE.docx
 file_path: 06_Applications/CVs_PLs/PL_Julian Cabrera Marceglia_BASE.docx --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/06_Applications/CVs_PLs/PL_Julian%20Cabrera%20Marceglia_BASE.docx
-file_path: 06_Applications/CVs_PLs/Siemens_ Advanta_(Germany)/CV_Julian_Cabrera_Marceglia.pdf --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/06_Applications/CVs_PLs/Siemens_%20Advanta_%28Germany%29/CV_Julian_Cabrera_Marceglia.pdf
 file_path: 06_Applications/Job_Opportunity_Assessment_Framework_v1.0.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/06_Applications/Job_Opportunity_Assessment_Framework_v1.0.md
 file_path: 06_Applications/Recruiter_Outreach_Framework_v1.0.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/06_Applications/Recruiter_Outreach_Framework_v1.0.md
 file_path: 07_Interviews/Engineering_Design_Principles.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/07_Interviews/Engineering_Design_Principles.md
