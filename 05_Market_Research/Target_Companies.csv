@@ -1,0 +1,49 @@
+segment,company,country,priority,notes,current_status,salary_level,fit_score,restrictions,strategic_rank
+Defense Tech,Harmattan AI,France,Tier 1,"Digital factory architecture, MES, ERP, defense",Applied,5,10,French preferred but not mandatory,A+
+Industrial Software,HighByte,USA,Tier 1,"UNS, MQTT, industrial data operations",Target,5,9,Limited openings,A+
+Industrial Software,Inductive Automation,USA,Tier 1,Ignition platform ecosystem,Target,5,9,Ignition experience helps,A+
+Defense Tech,Quantum Systems,Germany,Tier 1,"Defense drones, industrialization growth",Target,5,9,German beneficial,A+
+Defense Tech,ARX Robotics,Germany,Tier 1,"Manufacturing Digitalization, traceability, OT/IT",Monitoring,4,9,None known,A+
+Defense Tech,Thales,France/Spain,Tier 1,"Digitalization, quality systems, manufacturing",Applied,4,9,None significant,A
+MES & Manufacturing Systems,Rolls-Royce Power Systems,Germany,Tier 1,MES transformation,Applied,4,9,German required in many roles,A
+MES & Manufacturing Systems,Armacell,Global,Tier 1,Global MES rollout,Applied,4,9,None significant,A
+MES & Manufacturing Systems,AT&S,Austria,Tier 1,Manufacturing execution systems,Applied,4,9,None significant,A
+Industrial Software,Critical Manufacturing,Portugal,Tier 1,MES vendor,Target,4,9,MES specialization preferred,A
+Defense Tech,Helsing,Germany,Tier 1,"AI-enabled defense systems, manufacturing scaling",Target,5,8,German may appear in some roles,A
+Defense Tech,Rheinmetall,Germany,Tier 1,"Defense manufacturing, Industry 4.0",Monitoring,5,8,German often required,A
+Defense Tech,KNDS,Germany/France,Tier 1,Defense manufacturing systems,Target,5,8,German/French often preferred,A
+Defense Tech,Anduril Industries,USA,Tier 1,Autonomous defense manufacturing,Target,5,8,US work authorization often required,A
+Industrial Software,Tulip,USA,Tier 1,"Connected worker, MES-lite, digital manufacturing",Target,5,8,None significant,A
+Industrial Software,Litmus,USA,Tier 1,Industrial edge and data platforms,Target,5,8,None significant,A
+Industrial Software,AVEVA,UK,Tier 1,Industrial data platforms and MES,Target,5,8,None significant,A
+Industrial Software,Rockwell Automation,USA,Tier 1,"FactoryTalk, MES, industrial software",Target,5,8,None significant,A
+MES & Manufacturing Systems,Hitachi Energy,Finland,Tier 1,Factory digitalization,Skipped,4,8,Finnish required,A
+MES & Manufacturing Systems,ABB,Switzerland,Tier 1,Manufacturing systems and automation,Target,4,8,None significant,B
+MES & Manufacturing Systems,Schneider Electric,France,Tier 1,Industrial digitalization,Target,4,8,None significant,B
+Semiconductor,NXP,Netherlands,Tier 1,Industrial data and automation,Target,4,8,None significant,B
+Semiconductor,STMicroelectronics,Europe,Tier 1,Factory digitalization,Target,4,8,None significant,B
+Industrial Consulting,Deep Digital,Ireland,Tier 1,Industry 4.0 consulting,Applied,4,8,None significant,B
+Industrial Consulting,CIMPA,Europe,Tier 2,Manufacturing consulting,Target,4,8,None significant,B
+Industrial Software,Camstar/Opcenter Ecosystem,Global,Tier 2,MES specialization,Target,4,8,Vendor-specific experience,B
+Defense Tech,Leonardo,Italy,Tier 1,Aerospace and defense manufacturing,Target,4,7,Local language can help,B
+Industrial Software,Siemens Digital Industries,Germany,Tier 1,"MES, manufacturing software",Monitoring,5,7,German appears frequently,B
+Industrial Software,AspenTech,USA,Tier 1,Industrial optimization and data,Target,5,7,Process industry focus,B
+MES & Manufacturing Systems,Bosch,Germany,Tier 1,Smart factory programs,Target,4,8,German often required,B
+MES & Manufacturing Systems,ZF,Germany,Tier 2,Manufacturing systems,Target,4,7,German often required,B
+MES & Manufacturing Systems,Schaeffler,Germany,Tier 2,Industry 4.0 programs,Target,4,7,German often required,B
+MES & Manufacturing Systems,Continental,Germany,Tier 2,Manufacturing IT,Target,4,7,German often required,B
+Semiconductor,ASML,Netherlands,Tier 1,High salary manufacturing technology,Target,5,7,Strong competition,B
+Semiconductor,Infineon,Germany,Tier 1,Smart manufacturing,Target,4,7,German beneficial,B
+Semiconductor,GlobalFoundries,Germany,Tier 1,Semiconductor manufacturing systems,Target,5,7,German beneficial,B
+Semiconductor,Intel,Ireland/Germany,Tier 1,Advanced manufacturing,Target,5,7,Highly competitive,B
+Semiconductor,TSMC Europe,Germany,Tier 1,Future semiconductor manufacturing,Target,5,7,German beneficial,B
+Semiconductor,Bosch Semiconductor,Germany,Tier 1,Industry 4.0 fabs,Target,4,7,German often required,B
+Industrial Consulting,Accenture Industry X,Europe,Tier 1,Manufacturing transformation,Applied,4,7,Language depends on country,B
+Industrial Consulting,Capgemini Engineering,Europe,Tier 2,Manufacturing digitalization,Target,4,7,None significant,B
+Industrial Consulting,ALTEN,Europe,Tier 2,Industrial transformation,Target,3,7,None significant,B
+Advanced Manufacturing,Magna,Europe,Tier 1,Industry 4.0,Target,4,7,Automotive salary compression,B
+Advanced Manufacturing,Hitachi Rail,Europe,Tier 2,Industrial data and automation,Target,4,7,None significant,B
+Advanced Manufacturing,Alstom,Europe,Tier 2,Manufacturing digitalization,Target,4,7,None significant,C
+Defense Tech,Saab,Sweden,Tier 1,"Smart manufacturing, industrial data, defense",Applied/Monitoring,4,9,Security clearance constraints,C
+Advanced Manufacturing,Forvia,Europe,Tier 2,Manufacturing systems,Target,3,7,Automotive salary compression,C
+Advanced Manufacturing,Valeo,France/Spain,Tier 2,Industrial digitalization,Skipped,3,6,Lower ROI than alternatives,D

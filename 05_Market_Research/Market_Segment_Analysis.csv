@@ -1,0 +1,8 @@
+segment,company,role,country,salary_range,fit_score,restrictions,notes
+Defense Tech,ARX Robotics,Manufacturing Digitalization Specialist,Germany,70000-100000,9,German preferred,"Industry 4.0, traceability, OT/IT, manufacturing data"
+Defense Tech,Harmattan AI,Manufacturing Automation & Digitalization Engineer,France,80000-120000,10,French preferred,"MES, ERP, digital factory architecture"
+Defense Tech,Thales,Digitalization Engineer,Spain,50000-70000,9,None,"Industrial digitalization, MES, quality systems"
+Advanced Manufacturing,AT&S,Manufacturing Execution Systems Engineer,Austria,60000-90000,9,None,"MES, manufacturing systems, OT applications"
+Advanced Manufacturing,Rolls-Royce Power Systems,MES Solutions Specialist,Germany,70000-100000,9,German required,"MES, ERP integration, production architecture"
+Advanced Manufacturing,Armacell,MES Solutions Specialist,Global,70000-100000,9,None,"GE Proficy, MES rollout, ISA-95"
+Industrial Software Vendors,Deep Digital,Senior Data Consultant,Ireland,80000-120000,8,GAMP5 knowledge,"Industry 4.0 consulting, UNS, OT/IT"

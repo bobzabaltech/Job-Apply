@@ -1,36 +1,36 @@
-Priority,Tier,Company,Role,Location,JOB URL,Rationale
-1,Tier 1,Siemens Energy,"Digitalization, AI & Operational Excellence Specialist (m/f/d)","Linz, Austria",https://www.linkedin.com/jobs/view/4426636233/,"Máxima alineación con Industry 4.0, transformación digital y mejora operacional"
-2,Tier 1,Siemens Advanta,"Consultant (f/m/d) Smart Manufacturing","Bavaria, Germany",https://www.linkedin.com/jobs/view/4431715696/,"Marca premium, consultoría industrial, fuerte señal para mercado alemán"
-3,Tier 1,Accenture DACH,"Manufacturing Systems Specialist PAS-X (all genders)","Berlin, Germany",https://www.linkedin.com/jobs/view/4360866337/,"MES/PAS-X altamente demandado y bien remunerado"
-4,Tier 1,Accenture España,"Industry X - Manufacturing Engineer (MES)","Madrid, Spain",https://www.linkedin.com/jobs/view/4435489308/,"Industry X es una de las prácticas más fuertes en digital manufacturing"
-5,Tier 1,Hitachi Energy,"Digitalization and Automation Factory Specialist / Lead","Vaasa, Finland",https://www.linkedin.com/jobs/view/4437422220/,"Rol de liderazgo técnico con alta afinidad al posicionamiento objetivo"
-6,Tier 1,Airbus Helicopters,"Manufacturing Engineer: Process, Methods and Digital Tools","Albacete, Spain",https://www.linkedin.com/jobs/view/4430623688/,"Excelente marca internacional y experiencia industrial compleja"
-7,Tier 1,Magna International,"Industry 4.0 Engineer","Barcelona, Spain",https://www.linkedin.com/jobs/view/4433302352/,"Industry 4.0 puro dentro de manufactura avanzada"
-8,Tier 1,Danfoss,"Manufacturing System and Solution Consultant","Nordborg, Denmark",https://www.linkedin.com/jobs/view/4430902751/,"Manufacturing systems con exposición internacional"
-9,Tier 1,Rheinmetall,"Digital Manufacturing Engineer (m/w/d)","Neuss, North Rhine-Westphalia, Germany",https://www.linkedin.com/jobs/view/4410307021/,"Manufactura avanzada alemana y fuerte inversión digital"
-10,Tier 1,CAREL,"Digital Manufacturing Specialist","Brugine, Veneto, Italy",https://www.linkedin.com/jobs/view/4435817719/,"Digital manufacturing explícito y alineado"
-11,Tier 2,Luxoft Spain,"Industrial Data Engineer","Madrid, Spain",https://www.linkedin.com/jobs/view/4430911721/,"Industrial data con buena transición hacia arquitectura de datos"
-12,Tier 2,Rheinmetall,"Data Engineer (m/w/d)","Weeze, Germany",https://www.linkedin.com/jobs/view/4433005912/,"Ingeniería de datos industrial relevante"
-13,Tier 2,Rheinmetall,"Data & Analytics Business Partner","Madrid, Spain",https://www.linkedin.com/jobs/view/4435514335/,"Rol híbrido negocio-datos"
-14,Tier 2,Teoresi Group,"Data and Analytics Engineer (m/w/d) – Autonomous Driving","Greater Munich Metropolitan Area, Germany",https://www.linkedin.com/jobs/view/4430928156/,"Datos industriales en sector avanzado"
-15,Tier 2,tesa SE,"Data & Analytics Manager Global Operations","Hamburg, Germany",https://www.linkedin.com/jobs/view/4431531206/,"Analytics aplicado a operaciones industriales"
-16,Tier 2,SAAB Group,"Industrial IoT / OT Data Engineer","Linköping, Sweden",https://www.linkedin.com/jobs/view/4434013288/,"OT/IoT industrial de alta calidad"
-17,Tier 2,Deltia,"Manufacturing Data Analyst","Berlin, Germany",https://www.linkedin.com/jobs/view/4432256791/,"Manufacturing analytics alineado"
-18,Tier 2,Deep Digital Solutions Group,"Senior Specialist - Industry 4.0 & Manufacturing Data","Cork, Ireland",https://www.linkedin.com/jobs/view/4431663908/,"Industry 4.0 y datos industriales"
-19,Tier 2,CIMPA PLM Services,"Manufacturing Digital Consultant","Madrid, Spain",https://www.linkedin.com/jobs/view/4430906969/,"Consultoría industrial especializada"
-20,Tier 2,AT&S,"Manufacturing Execution Systems Engineer","Leoben, Austria",https://www.linkedin.com/jobs/view/4413693093/,"MES directamente alineado"
-21,Tier 3,Rolls-Royce Power Systems AG,"MES Solutions Specialist (m/w/d)","Friedrichshafen, Germany",https://www.linkedin.com/jobs/view/4416186264/,"Buena marca pero nicho más específico"
-22,Tier 3,Armacell,"MES Solutions Specialist","Not specified",https://www.linkedin.com/jobs/view/4436584887/,"Información limitada"
-23,Tier 3,Harmattan AI,"Manufacturing Automation and Digitalization Engineer","Orly, France",https://www.linkedin.com/jobs/view/4426773098/,"Empresa pequeña comparada con Tier 1"
-24,Tier 3,ARX Robotics,"Manufacturing Digitalization Specialist (m/f/d)","Munich, Germany",https://www.linkedin.com/jobs/view/4417966219/,"Startup/escala menor"
-25,Tier 3,Danone,"Digital Transformation Specialist","Zoetermeer, Netherlands",https://www.linkedin.com/jobs/view/4425788906/,"Transformación digital generalista"
-26,Tier 3,Valeo,"Ingeniero/a Industrial & Automatización de Procesos","Martos, Spain",https://www.linkedin.com/jobs/view/4433277318/,"Más orientado a automatización clásica"
-27,Tier 3,OSTP Group,"Manufacturing data specialist","Örnsköldsvik, Sweden",https://www.linkedin.com/jobs/view/4423635707/,"Empresa menos conocida"
-28,Tier 3,Fervimax Group,"Industrial Data Analyst","Madrid, Spain",https://www.linkedin.com/jobs/view/4434013288/,"Menor impacto de marca"
-29,Tier 3,Grupo Avintia,"Responsable de industrial digital","Madrid, Spain",https://www.linkedin.com/jobs/view/4430115635/,"Mercado más local"
-30,Tier 3,Accenture France,"Lead Data Manufacturing F/H","Paris, France",https://www.linkedin.com/jobs/view/4433579137/,"Interesante pero menos alineado que Industry X"
-31,Tier 3,Luxoft Spain,"Industrial Data Analyst","Madrid, Spain",https://www.linkedin.com/jobs/view/4430912050/,"Menor seniority que Data Engineer"
-32,Tier 3,Siemens,"Consultant (f/m/d) Smart Manufacturing","Erlangen, Germany",https://www.linkedin.com/jobs/view/4430567994/,"Duplicidad temática con Siemens Advanta"
-33,Tier 3,Between Technology,"Ingeniero/a de Digitalización Industrial (Industrial AI)","Zaragoza, Spain",https://www.linkedin.com/jobs/view/4429895806/,"Buen ajuste pero menor potencial salarial"
-34,Tier 3,Thales,"Digitalization Engineer","Barcelona, Spain",https://www.linkedin.com/jobs/view/4404999638/,"Interesante pero menos específico que otros Tier 1"
-35,Tier 3,SAEKI,"Manufacturing Lead: Quality and Metrology","Munich, Germany",https://www.linkedin.com/jobs/view/4381715224/,"Más orientado a calidad/metrología que a transformación digital"
+Priority,Tier,Company,Role,Location,JOB URL,Rationale,applied_status
+1,Tier 1,Siemens Energy,"Digitalization, AI & Operational Excellence Specialist (m/f/d)","Linz, Austria",https://www.linkedin.com/jobs/view/4426636233/,"Máxima alineación con Industry 4.0, transformación digital y mejora operacional",skipped
+2,Tier 1,Siemens Advanta,Consultant (f/m/d) Smart Manufacturing,"Bavaria, Germany",https://www.linkedin.com/jobs/view/4431715696/,"Marca premium, consultoría industrial, fuerte señal para mercado alemán",applied
+3,Tier 1,Accenture DACH,Manufacturing Systems Specialist PAS-X (all genders),"Berlin, Germany",https://www.linkedin.com/jobs/view/4360866337/,MES/PAS-X altamente demandado y bien remunerado,skipped
+4,Tier 1,Accenture España,Industry X - Manufacturing Engineer (MES),"Madrid, Spain",https://www.linkedin.com/jobs/view/4435489308/,Industry X es una de las prácticas más fuertes en digital manufacturing,applied
+5,Tier 1,Hitachi Energy,Digitalization and Automation Factory Specialist / Lead,"Vaasa, Finland",https://www.linkedin.com/jobs/view/4437422220/,Rol de liderazgo técnico con alta afinidad al posicionamiento objetivo,applied
+6,Tier 1,Airbus Helicopters,"Manufacturing Engineer: Process, Methods and Digital Tools","Albacete, Spain",https://www.linkedin.com/jobs/view/4430623688/,Excelente marca internacional y experiencia industrial compleja,applied
+7,Tier 1,Magna International,Industry 4.0 Engineer,"Barcelona, Spain",https://www.linkedin.com/jobs/view/4433302352/,Industry 4.0 puro dentro de manufactura avanzada,applied
+8,Tier 1,Danfoss,Manufacturing System and Solution Consultant,"Nordborg, Denmark",https://www.linkedin.com/jobs/view/4430902751/,Manufacturing systems con exposición internacional,applied
+9,Tier 1,Rheinmetall,Digital Manufacturing Engineer (m/w/d),"Neuss, North Rhine-Westphalia, Germany",https://www.linkedin.com/jobs/view/4410307021/,Manufactura avanzada alemana y fuerte inversión digital,skipped
+10,Tier 1,CAREL,Digital Manufacturing Specialist,"Brugine, Veneto, Italy",https://www.linkedin.com/jobs/view/4435817719/,Digital manufacturing explícito y alineado,skipped
+11,Tier 2,Luxoft Spain,Industrial Data Engineer,"Madrid, Spain",https://www.linkedin.com/jobs/view/4430911721/,Industrial data con buena transición hacia arquitectura de datos,applied
+12,Tier 2,Rheinmetall,Data Engineer (m/w/d),"Weeze, Germany",https://www.linkedin.com/jobs/view/4433005912/,Ingeniería de datos industrial relevante,skipped
+13,Tier 2,Rheinmetall,Data & Analytics Business Partner,"Madrid, Spain",https://www.linkedin.com/jobs/view/4435514335/,Rol híbrido negocio-datos,not applied
+14,Tier 2,Teoresi Group,Data and Analytics Engineer (m/w/d) – Autonomous Driving,"Greater Munich Metropolitan Area, Germany",https://www.linkedin.com/jobs/view/4430928156/,Datos industriales en sector avanzado,not applied
+15,Tier 2,tesa SE,Data & Analytics Manager Global Operations,"Hamburg, Germany",https://www.linkedin.com/jobs/view/4431531206/,Analytics aplicado a operaciones industriales,not applied
+16,Tier 2,SAAB Group,Industrial IoT / OT Data Engineer,"Linköping, Sweden",https://www.linkedin.com/jobs/view/4434013288/,OT/IoT industrial de alta calidad,skipped
+17,Tier 2,Deltia,Manufacturing Data Analyst,"Berlin, Germany",https://www.linkedin.com/jobs/view/4432256791/,Manufacturing analytics alineado,skipped
+18,Tier 2,Deep Digital Solutions Group,Senior Specialist - Industry 4.0 & Manufacturing Data,"Cork, Ireland",https://www.linkedin.com/jobs/view/4431663908/,Industry 4.0 y datos industriales,applied
+19,Tier 2,CIMPA PLM Services,Manufacturing Digital Consultant,"Madrid, Spain",https://www.linkedin.com/jobs/view/4430906969/,Consultoría industrial especializada,skipped
+20,Tier 2,AT&S,Manufacturing Execution Systems Engineer,"Leoben, Austria",https://www.linkedin.com/jobs/view/4413693093/,MES directamente alineado,applied
+21,Tier 3,Rolls-Royce Power Systems AG,MES Solutions Specialist (m/w/d),"Friedrichshafen, Germany",https://www.linkedin.com/jobs/view/4416186264/,Buena marca pero nicho más específico,applied
+22,Tier 3,Armacell,MES Solutions Specialist,Not specified,https://www.linkedin.com/jobs/view/4436584887/,Información limitada,applied
+23,Tier 3,Harmattan AI,Manufacturing Automation and Digitalization Engineer,"Orly, France",https://www.linkedin.com/jobs/view/4426773098/,Empresa pequeña comparada con Tier 1,applied
+24,Tier 3,ARX Robotics,Manufacturing Digitalization Specialist (m/f/d),"Munich, Germany",https://www.linkedin.com/jobs/view/4417966219/,Startup/escala menor,applied
+25,Tier 3,Danone,Digital Transformation Specialist,"Zoetermeer, Netherlands",https://www.linkedin.com/jobs/view/4425788906/,Transformación digital generalista,skipped
+26,Tier 3,Valeo,Ingeniero/a Industrial & Automatización de Procesos,"Martos, Spain",https://www.linkedin.com/jobs/view/4414662702/,Más orientado a automatización clásica,applied
+27,Tier 3,OSTP Group,Manufacturing data specialist,"Örnsköldsvik, Sweden",https://www.linkedin.com/jobs/view/4423635707/,Empresa menos conocida,skipped
+28,Tier 3,Fervimax Group,Industrial Data Analyst,"Madrid, Spain",https://www.linkedin.com/jobs/view/4432349211/,Menor impacto de marca,skipped
+29,Tier 3,Grupo Avintia,Responsable de industrial digital,"Madrid, Spain",https://www.linkedin.com/jobs/view/4432769891/,Mercado más local,applied
+30,Tier 3,Accenture France,Lead Data Manufacturing F/H,"Paris, France",https://www.linkedin.com/jobs/view/4433579137/,Interesante pero menos alineado que Industry X,not applied
+31,Tier 3,Luxoft Spain,Industrial Data Analyst,"Madrid, Spain",https://www.linkedin.com/jobs/view/4430906743/,Menor seniority que Data Engineer,skipped
+32,Tier 3,Siemens,Consultant (f/m/d) Smart Manufacturing,"Erlangen, Germany",https://www.linkedin.com/jobs/view/4430567994/,Duplicidad temática con Siemens Advanta,applied
+33,Tier 3,Between Technology,Ingeniero/a de Digitalización Industrial (Industrial AI),"Zaragoza, Spain",https://www.linkedin.com/jobs/view/4429895806/,Buen ajuste pero menor potencial salarial,not applied
+34,Tier 3,Thales,Digitalization Engineer,"Barcelona, Spain",https://www.linkedin.com/jobs/view/4404999638/,Interesante pero menos específico que otros Tier 1,applied
+35,Tier 3,SAEKI,Manufacturing Lead: Quality and Metrology,"Munich, Germany",https://www.linkedin.com/jobs/view/4381715224/,Más orientado a calidad/metrología que a transformación digital,skipped
