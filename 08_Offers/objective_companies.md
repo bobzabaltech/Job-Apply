@@ -4,17 +4,17 @@ Priority: A+
 
 ## Companies
 
-Anduril Industries
-Helsing
-ARX Robotics
-Quantum Systems
-Tekever
-Shield AI
-Saronic
-Skydio
-Auterion
-Destinus
-KNDS
++Anduril Industries
++Helsing
++ARX Robotics
++Quantum Systems
++Tekever
++Shield AI
++Saronic
++Skydio
++Auterion
++Destinus
++KNDS
 Rheinmetall
 Saab
 Leonardo
