@@ -41,6 +41,8 @@ file_path: 05_Market_Research/Initial_Target_Company_Pipeline_v1.0.md --> link_t
 file_path: 05_Market_Research/LinkedIn_Extraction_Data.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/LinkedIn_Extraction_Data.md
 file_path: 05_Market_Research/LinkedIn_Jobs_Market_Analysis_2026.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/LinkedIn_Jobs_Market_Analysis_2026.md
 file_path: 05_Market_Research/LinkedIn_Positioning_Guide_2026.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/LinkedIn_Positioning_Guide_2026.md
+file_path: 05_Market_Research/Market_Segment_Analysis.csv --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/Market_Segment_Analysis.csv
+file_path: 05_Market_Research/Market_Segments_2026.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/Market_Segments_2026.md
 file_path: 05_Market_Research/Market_to_Profile_Mapping_2026.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/Market_to_Profile_Mapping_2026.md
 file_path: 05_Market_Research/Opportunity_Pipeline.csv --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/Opportunity_Pipeline.csv
 file_path: 05_Market_Research/Raw_LinkedIn_Jobs/01_Manufacturing Systems Engineer.txt --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/Raw_LinkedIn_Jobs/01_Manufacturing%20Systems%20Engineer.txt
@@ -55,6 +57,7 @@ file_path: 05_Market_Research/Raw_LinkedIn_Jobs/empty --> link_to_file: https://
 file_path: 05_Market_Research/Raw_LinkedIn_Jobs/linkedin_jobs_page_data_schema_reference.jpg --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/Raw_LinkedIn_Jobs/linkedin_jobs_page_data_schema_reference.jpg
 file_path: 05_Market_Research/Role_Positioning_Analysis_2026.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/Role_Positioning_Analysis_2026.md
 file_path: 05_Market_Research/Target_50.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/Target_50.md
+file_path: 05_Market_Research/Target_Companies.csv --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/Target_Companies.csv
 file_path: 05_Market_Research/Target_Company_Matrix_v1.0.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/Target_Company_Matrix_v1.0.md
 file_path: 05_Market_Research/Target_Role_Search_Map_v1.0.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/Target_Role_Search_Map_v1.0.md
 file_path: 05_Market_Research/Technical_Evidence_Matrix_2026.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/05_Market_Research/Technical_Evidence_Matrix_2026.md
