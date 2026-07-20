@@ -85,11 +85,14 @@ file_path: 07_Interviews/Engineering_Problem_Solving_Framework.md --> link_to_fi
 file_path: 07_Interviews/Manufacturing_System_Design_Stories.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/07_Interviews/Manufacturing_System_Design_Stories.md
 file_path: 07_Interviews/empty --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/07_Interviews/empty
 file_path: 08_Offers/KNDS_germany.zip --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/08_Offers/KNDS_germany.zip
+file_path: 08_Offers/base.csv --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/08_Offers/base.csv
 file_path: 08_Offers/description_review.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/08_Offers/description_review.md
+file_path: 08_Offers/jobs.json --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/08_Offers/jobs.json
 file_path: 08_Offers/objective_companies.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/08_Offers/objective_companies.md
-file_path: 08_Offers/temp_1.json --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/08_Offers/temp_1.json
-file_path: 08_Offers/temp_2.json --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/08_Offers/temp_2.json
-file_path: 08_Offers/temp_3.json --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/08_Offers/temp_3.json
+file_path: 08_Offers/rheinmetall_jobs.csv --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/08_Offers/rheinmetall_jobs.csv
+file_path: 08_Offers/saab_jobs.csv --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/08_Offers/saab_jobs.csv
+file_path: 08_Offers/temp.py --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/08_Offers/temp.py
+file_path: 08_Offers/temp_1.html --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/08_Offers/temp_1.html
 file_path: 08_Offers/to_apply.csv --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/08_Offers/to_apply.csv
 file_path: README.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/README.md
 file_path: notes.md --> link_to_file: https://raw.githubusercontent.com/bobzabaltech/Job-Apply/main/notes.md
