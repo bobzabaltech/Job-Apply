@@ -1,74 +1,133 @@
 import csv
+import json
+import time
 import requests
+
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
 
-BASE_URL = "https://www.rheinmetall.com/en/career/vacancies?page={}"
 
-headers = {
-    "User-Agent": "Mozilla/5.0"
+INPUT_CSV = "base.csv"
+OUTPUT_JSON = "jobs.json"
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 "
+        "(Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 "
+        "(KHTML, like Gecko) "
+        "Chrome/137.0 Safari/537.36"
+    )
 }
 
-jobs = {}
-page = 1
 
-while True:
-    url = BASE_URL.format(page)
+def extract_job_description(html):
 
-    print(f"Processing page {page}...")
+    soup = BeautifulSoup(html, "html.parser")
 
-    response = requests.get(url, headers=headers, timeout=30)
+    selectors = [
+        ".job-description",
+        ".vacancy-detail",
+        ".job-content",
+        ".content",
+        "article",
+        "main"
+    ]
 
-    if response.status_code != 200:
-        print(f"Stopping at page {page} (HTTP {response.status_code})")
-        break
+    for selector in selectors:
 
-    soup = BeautifulSoup(response.text, "html.parser")
+        section = soup.select_one(selector)
 
-    links_found = 0
+        if section:
 
-    for a in soup.find_all("a", href=True):
+            text = section.get_text(
+                separator="\n",
+                strip=True
+            )
 
-        href = a["href"]
-        title = a.get_text(strip=True)
+            if len(text) > 1000:
+                return text
 
-        if not title:
-            continue
+    body = soup.get_text(
+        separator="\n",
+        strip=True
+    )
 
-        if "/job/" not in href:
-            continue
+    return body
 
-        full_url = urljoin("https://www.rheinmetall.com", href)
 
-        jobs[full_url] = title
-        links_found += 1
+def main():
 
-    if links_found == 0:
-        print(f"No jobs found on page {page}. Stopping.")
-        break
+    results = []
 
-    page += 1
+    with open(
+        INPUT_CSV,
+        newline="",
+        encoding="utf-8"
+    ) as f:
 
-print(f"\nTotal unique jobs found: {len(jobs)}")
+        reader = csv.DictReader(f)
 
-with open(
-    "rheinmetall_jobs.csv",
-    "w",
-    newline="",
-    encoding="utf-8"
-) as f:
+        for row in reader:
 
-    writer = csv.writer(f)
+            title = row["job_title"].strip()
+            url = row["job_url"].strip()
 
-    writer.writerow([
-        "job_title",
-        "job_url"
-    ])
+            print(f"Processing: {title}")
 
-    for url, title in jobs.items():
-        writer.writerow([
-            title,
-            url
-        ])
+            try:
 
-print("CSV saved as rheinmetall_jobs.csv")
+                response = requests.get(
+                    url,
+                    headers=HEADERS,
+                    timeout=30
+                )
+
+                response.raise_for_status()
+
+                description = extract_job_description(
+                    response.text
+                )
+
+                results.append(
+                    {
+                        "job_title": title,
+                        "job_url": url,
+                        "job_description": description
+                    }
+                )
+
+                time.sleep(1)
+
+            except Exception as e:
+
+                print(f"ERROR: {url}")
+                print(e)
+
+                results.append(
+                    {
+                        "job_title": title,
+                        "job_url": url,
+                        "job_description": None
+                    }
+                )
+
+    with open(
+        OUTPUT_JSON,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            results,
+            f,
+            ensure_ascii=False,
+            indent=2
+        )
+
+    print(
+        f"\nSaved {len(results)} jobs to {OUTPUT_JSON}"
+    )
+
+
+if __name__ == "__main__":
+    main()

@@ -15,7 +15,7 @@ Priority: A+
 +Auterion
 +Destinus
 +KNDS
-Rheinmetall
++Rheinmetall
 Saab
 Leonardo
 MBDA
