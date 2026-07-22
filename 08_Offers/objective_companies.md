@@ -16,8 +16,8 @@ Priority: A+
 +Destinus
 +KNDS
 +Rheinmetall
-Saab
-Leonardo
++Saab
++Leonardo
 MBDA
 BAE Systems
 
